@@ -1,0 +1,343 @@
+/* =============================================================================
+   container
+   ========================================================================== */
+
+.container-narrow {
+  margin: 0 auto;
+  max-width:970px;
+}
+
+.container-narrow > footer {
+  margin-top: 20px;
+  text-align: center;
+}
+.container-narrow > footer p {
+  background-color: rgba(245,245,245,0.75);
+  padding: 5px;
+  display: inline-block;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* =============================================================================
+   Body and structure
+   ========================================================================== */
+
+body {
+  position: relative;
+  background-color: #fff;
+  background-repeat: repeat-x;
+  background-position: 0 40px;
+  padding-bottom: 70px;
+}
+
+.content {
+  padding: 20px;
+  margin: 20px -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  border-radius: 6px 6px 6px 6px;
+  -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.75);
+  -moz-box-shadow: 0 2px 102px rgba(0,0,0,.75);
+  box-shadow: 0 2px 10px rgba(0,0,0,.75);
+}
+
+#sidebar {
+  margin-left: 5px;
+  padding-left: 15px;
+  border-left: 1px solid #e0e0e0;
+  font-size: 0.9em;
+}
+
+/* =============================================================================
+   page
+   ========================================================================== */
+
+.page{
+  margin: 1.0em 0em;
+  padding-top: 25px;
+  line-height: 1.5em;
+  font-family: 'Open Sans',"Helvetica Neue", "Helvetica","Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
+}
+
+.page p{
+  margin: 1.0em 0em;
+}
+
+.page .panel-heading {
+  background-color: #eee;
+  font-weight:bold;
+}
+
+.page .panel-collapse .panel-body {
+  padding: 9px 15px;
+  background-color: #F5F5D5;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.note {
+  position: relative;
+  margin-top: -20px;
+}
+
+/* =============================================================================
+   pagination
+   ========================================================================== */
+
+.pagination {
+  margin: 10px 0;
+}
+
+.pagination a{
+  color:#555;  
+}
+
+
+/* =============================================================================
+   List
+   ========================================================================== */
+
+li i {
+  margin-right: 5px;
+  margin-left: 5px;  
+}
+
+.listing-item {
+  line-height: 24px;
+}
+
+/* =============================================================================
+   hyper links
+   ========================================================================== */
+
+a{color:#1863a1}
+a:focus{color:#0181eb}
+a:hover{color:#0181eb}
+a:active{color:#01579f}
+
+a.label-anchor {
+  position: relative;
+  display: block;
+  text-align: right;
+  width: 200px;
+  left: -210px;
+  font-family: 'PT Sans', sans-serif;
+}
+a.label-anchor:target span {
+  background-color: #b94a48;
+}
+a.label-anchor:hover {
+  text-decoration: none;
+}
+a.label-anchor span {
+  font-weight: bold;
+  line-height: 0px;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  background-color: #666;
+  padding: 1px 4px 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+a.inline-ref {
+  border-bottom: dotted 1px #333;
+  color: black;
+}
+a.inline-ref:hover {
+  text-decoration: none;
+  border-bottom: solid 1px #000;
+}
+
+/* =============================================================================
+  blockquote
+   ========================================================================== */
+
+blockquote {
+  border-left:5px solid #cccccc;
+  font-size: 1em;
+  background-color: #fff;
+}
+
+blockquote p, blockquote ol, blockquote ul, blockquote li, .slogan{
+  font-family: 'Open Sans',"Helvetica Neue", Helvetica, "Segoe UI", Ubuntu, "Hiragino Sans GB", '楷体', 'STKaiti';
+}
+
+/* =============================================================================
+   img
+   ========================================================================== */
+
+img {
+  max-width: 97.5%;
+  margin: 15px auto;
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+/* =============================================================================
+   scroll to top
+   ========================================================================== */
+
+#gotop{ 
+  display:block;  
+  width:36px; 
+  height:36px;
+  position:fixed;  
+  bottom:40px;  
+  right:30px; 
+  border-radius:7px;
+  text-decoration:none;  
+  display:none;  
+  background-color:#999999;     
+}
+#gotop span{ 
+  display:block; 
+  color:#dddddd; 
+} 
+#gotop span:hover{ 
+  color:#cccccc; 
+} 
+#gotop span{ 
+  font-size:24px; 
+  text-align:center; 
+}
+
+/* =============================================================================
+   Headers
+   ========================================================================== */
+
+header h1{
+  font-weight:normal;
+  line-height:1.2em;
+  margin-bottom:0.6667em;
+}
+
+h1{
+  font-size:2.6em;
+  line-height:1.2em;
+  margin-bottom:0.6667em;
+}
+
+h1,h2,h3,h4,h5,h6{
+  text-rendering:optimizelegibility;
+  font-weight:bold;
+  font-family: 'Open Sans', "Helvetica Neue", "Helvetica","Microsoft YaHei", "WenQuanYi Micro Hei",Arial, sans-serif;
+}
+
+h2{
+  margin: 0.83em 0;
+  color: green;
+  border-bottom: 2px #ccc solid;
+  padding-top: 40px;
+  margin-top: -45px;
+}
+
+h3 {
+  border-bottom: 1.5px solid #dcdce9;
+  margin-top: -5px;
+  color: #9C4C17;
+}
+
+h4 {
+  color: #B94A48;
+}
+
+h2,section h1{font-size:1.5em}
+
+h3,section h2,section section h1{font-size:1.3em}
+
+h4,section h3,section section h2,section section section h1{font-size:1em}
+
+h5,section h4,section section h3{font-size:.9em}
+
+h6,section h5,section section h4,section section section h3{font-size:.8em}
+
+.page-header {
+  -webkit-background-clip: border-box;
+  -webkit-background-origin: padding-box;
+  -webkit-background-size: cover;
+  /* background-color: #f5f5f5; */
+  padding: 10px 20px 0px 20px;
+  margin: -20px -20px 20px;
+  background: #333;
+  background: -moz-linear-gradient(top, #222, #000 50%);
+  background: -webkit-gradient(linear, 0 0, 0 50%, from(#222), to(#000));
+  color: #bbbbbb;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;  
+}
+
+h2,h3{
+  margin: 0.5em 0px;
+}
+.page-header .brand{
+  color: #bbbbbb;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+
+.page-header .brand:hover {
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+}
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+th {
+  padding: 12px 10px 12px 10px;
+  border-bottom: 1px dashed #4088b8;
+}
+
+td {
+  padding: 7px 10px 7px 10px;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/**
+ * 
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: ""; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+

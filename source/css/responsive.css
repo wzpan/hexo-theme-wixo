@@ -1,0 +1,54 @@
+/* Responsive
+-------------------------------------------------- */
+
+/* Desktop large
+------------------------- */
+@media (min-width: 1200px) {
+  .sidenav {
+    width: 258px;
+  }
+  .sidenav > li > a {
+    width: 230px \9; /* Override the previous IE8-9 hack */
+  }
+}
+
+/* Desktop
+------------------------- */
+@media (min-width: 992px) and (max-width: 1199px)  {
+  /* When affixed, space properly */
+  .sidenav {
+    top: 0;
+    width: 218px;
+  }
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+  /* Adjust sidenav width */
+  .sidenav {
+	 position: static;
+	 margin-top: 30px;
+     margin-bottom: 30px;
+     margin-right: 0;
+  }  
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 767px) {
+
+  /* Remove padding above jumbotron */
+  body {
+    padding-top: 0;
+  }
+
+  .sidenav{
+    position: static;
+    top: 0;
+  }
+}

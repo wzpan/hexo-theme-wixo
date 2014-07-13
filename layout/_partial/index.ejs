@@ -1,0 +1,19 @@
+<div class="row page">
+  <div class="col-md-12">
+	<div class="panel-group" id="notebook">
+	  <% site.categories.sort('name').each(function(cat){ %>
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <a class="panel-title" data-toggle="collapse" data-parent="#notebook" href="#<%= cat.name %>">
+			<i class="fa fa-folder"></i> <%= cat.name %>
+		  </a>
+		</div>
+		<div id="<%= cat.name %>" class="panel-collapse collapse">
+		  <div class="panel-body">
+		    <%- list_posts({orderby:"date",order:-1,query:{categories:cat.name}}) %>			  </div>
+		</div>
+	  </div>
+	  <% }); %>	  
+	</div><!-- accordion -->
+  </div>
+</div>

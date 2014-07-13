@@ -1,0 +1,6 @@
+<!-- toc -->
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+ 		   generateWikiTOC('.note', '.toc', <% if (page.tocstartlv) { %><%= page.tocstartlv %><% } else {%> 2 <% }%>,<% if (page.depth) { %><%= page.depth %> <% } else { %> 2 <% } %>);
+		});
+</script>
