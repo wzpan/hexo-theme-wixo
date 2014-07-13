@@ -72,7 +72,7 @@ toc: true
 
 ## Todo ##
 
-See [TODO](https://github.com/wzpan/hexo-theme-wixo/wiki/TODO)
+See [TODO](https://github.com/wzpan/hexo-theme-wixo/wiki/TODO).
 
 ## License ##
 
