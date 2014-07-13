@@ -1,0 +1,5 @@
+title: About
+layout: page
+---
+
+Something about me. ;-)
