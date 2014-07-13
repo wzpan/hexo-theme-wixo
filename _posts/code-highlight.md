@@ -1,7 +1,6 @@
 title: Code Highlight
 date: 2014-03-15 20:17:16
 categories: Tests
-description: A collection of Hello World applications from helloworld.org.
 toc: true
 ---
 

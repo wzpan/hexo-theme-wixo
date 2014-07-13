@@ -1,7 +1,6 @@
 title: Tag Plugins（中文）
 date: 2014-03-16 10:10:16
 categories: Docs
-description: Introduce tag plugins in freemind.
 toc: true
 ---
 

@@ -1,7 +1,6 @@
 title: Questions and Answers（中文）
 date: 2014-03-16 18:10:16
 categories: Docs
-description: Frequently asked questions and my answers.
 ---
 
 {% label Q danger %} `Wixo` 这名字有何含义？
