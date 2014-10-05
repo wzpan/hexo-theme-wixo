@@ -216,6 +216,12 @@ header h1{
   font-weight:normal;
   line-height:1.2em;
   margin-bottom:0.6667em;
+
+}
+.page-header h1 span.split{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-right: solid #333 2px;
 }
 
 .page-header h1 span.title{
