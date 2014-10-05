@@ -10,7 +10,7 @@
 		</div>
 		<div id="<%= cat.name %>" class="panel-collapse collapse">
 		  <div class="panel-body">
-		    <%- list_posts({orderby:"date",order:-1,query:{categories:cat.name}}) %>			  </div>
+		    <%- list_posts({orderby:"date",order:-1,count:65535,query:{categories:cat.name}}) %>			  </div>
 		</div>
 	  </div>
 	  <% }); %>	  
