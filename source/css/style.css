@@ -161,10 +161,11 @@ blockquote {
   border-left:5px solid #cccccc;
   font-size: 1em;
   background-color: #fff;
+  padding: 0px 20px;
 }
 
 blockquote p, blockquote ol, blockquote ul, blockquote li, .slogan{
-  font-family: 'Open Sans',"Helvetica Neue", Helvetica, "Segoe UI", Ubuntu, "Hiragino Sans GB", '楷体', 'STKaiti';
+  font-family: 'Open Sans',"Helvetica Neue", '楷体', 'STKaiti', "Kai", "kaiti", Helvetica, "Segoe UI", Ubuntu, "Hiragino Sans GB";
 }
 
 /* =============================================================================
@@ -215,6 +216,19 @@ header h1{
   font-weight:normal;
   line-height:1.2em;
   margin-bottom:0.6667em;
+}
+
+.page-header h1 span.title{
+  font-weight:normal;
+  font-family: "Droid Serif", "Kai", "KaiTi";
+}
+
+.page-header h1 span.date{
+  position: absolute;
+  right: 60px;
+  font-size: 0.7em;
+  color: #555;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 h1{

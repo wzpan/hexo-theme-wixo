@@ -1,3 +1,5 @@
+rss: atom.xml
 fancybox: true
 favicon: favicon.png
+fold: True
 google_analytics: 

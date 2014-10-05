@@ -48,12 +48,16 @@ $ git pull
 ## Configuration ##
 
 ```
+rss: atom.xml
 fancybox: true
 favicon: favicon.png
+fold: true
 google_analytics:
 ```
 
+* **rss** - RSS link
 * **fancybox** - enable [Fancybox](http://fancyapps.com/fancybox/)
+* **fold** - whether to fold all the notebooks
 * **google_analytics** - Google Analytics ID
 
 ## Front-Matter ##
