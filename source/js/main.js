@@ -1,5 +1,13 @@
-$(document).ready(function() {
+function setTitleDate()
+{
+	var container_margin_right = $("#container").css("margin-right");
+	var container_padding_right = $("#container").css("padding-right");
+	var container_right = parseInt(container_margin_right) + parseInt(container_padding_right);
+	$("#title-date").css("right", container_right);
+}
 
+$(document).ready(function() {
+	
 	$(window).scroll(function(){  //只要窗口滚动,就触发下面代码 
         var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //获取滚动后的高度 
         if( scrollt >200 ){  //判断滚动后高度超过200px,就显示
@@ -21,5 +29,10 @@ $(document).ready(function() {
 		if ( scrollt > 200) {
 			$(".navbar").fadeTo(100, 0.2);
 		}
-	});
+	});	
+	setTitleDate();
 });
+
+$(window).resize(function () {
+	setTitleDate();
+})

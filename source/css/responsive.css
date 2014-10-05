@@ -14,7 +14,7 @@
 
 /* Desktop
 ------------------------- */
-@media (min-width: 980px) and (max-width: 1199px)  {
+@media (min-width: 991px) and (max-width: 1199px)  {
   /* When affixed, space properly */
   .sidenav {
     top: 0;
@@ -23,11 +23,12 @@
     margin-bottom: 30px;
     margin-right: 0;
   }
+
 }
 
 /* Tablet to desktop
 ------------------------- */
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 990px) {
   /* Remove any padding from the body */
   body {
     padding-top: 0;
@@ -39,16 +40,6 @@
     margin-top: 20px;
   }
   
-  .sidenav.affix {
-    top: 0;
-  }
-
-  span.margin-div-inner {
-    width: 166px;
-    margin-left: 20px;
-    font-size: 0.5em;
-    padding-left: 14px;
-  }
 }
 
 /* Tablet
@@ -67,10 +58,10 @@
     top: 0;
   }
 
-  .page > h3.title span.date {
-    padding-left: 1em;
-    position: relative;
+  .page-header h1 span.date{
+	display:block; overflow: hidden; width: 0; height: 0;
   }
+
 
 }
 
@@ -100,13 +91,8 @@
     top: 0;
   }
 
-  .page > h3.title span.date {
-    padding-left: 1em;
-    position: relative;
-  }
-
-  .label-anchor {
-	margin-top: -10px;
+  .page-header h1 span.date{
+	display:block; overflow: hidden; width: 0; height: 0; 
   }
 
 }

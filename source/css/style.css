@@ -224,8 +224,8 @@ header h1{
 }
 
 .page-header h1 span.date{
+  display:inline;
   position: absolute;
-  right: 60px;
   font-size: 0.7em;
   color: #555;
   font-family: 'PT Sans Narrow', sans-serif;
