@@ -1,8 +1,11 @@
 function setTitleDate()
 {
+	var body_width = $("#body").css("width")
+	var container_width = $("#container").css("width")
 	var container_margin_right = $("#container").css("margin-right");
 	var container_padding_right = $("#container").css("padding-right");
-	var container_right = parseInt(container_margin_right) + parseInt(container_padding_right);
+	//var container_right = parseInt(container_margin_right) + parseInt(container_padding_right);
+	var container_right = (parseInt(body_width) - parseInt(container_width))/2 + 10;
 	$("#title-date").css("right", container_right);
 }
 
