@@ -3,9 +3,9 @@ Hexo-Theme-Wixo
 
 Turn your Hexo into a Wiki!
 
-* [Demo](http://hahack.tk/hexo-theme-wixo/)
-* [Q&A](http://hahack.tk/hexo-theme-wixo/Docs/qna/)
-* [Tag Plugins](http://hahack.tk/hexo-theme-wixo/Docs/tag-plugins/)
+* [Demo](http://wzpan.github.io/hexo-theme-wixo/)
+* [Q&A](http://wzpan.github.io/hexo-theme-wixo/Docs/qna/)
+* [Tag Plugins](http://wzpan.github.io/hexo-theme-wixo/Docs/tag-plugins/)
 
 ## Features ##
 
