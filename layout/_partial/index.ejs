@@ -13,7 +13,14 @@
 		<div id="<%= cat.name %>" class="panel-collapse collapse in">
 		<% } %>
 		  <div class="panel-body">
-		    <%- list_posts({orderby:"date",order:-1,count:65535,query:{categories:cat.name}}) %>			  </div>
+		  <ul class="post">
+		  	<% site.posts.sort('date', -1).forEach(function(it){ %>
+				<% if (it.categories.length == 1 && it.categories.data[0]._id == cat._id){ %>
+					<li class="post-list-item"><a href="<%= config.root %><%= it.path %>"><%= it.title %></a></li>
+				<% } %>
+			<% }); %>
+		  </ul>
+		  </div>
 		</div>
 	  </div>
 	  <% }); %>	  
