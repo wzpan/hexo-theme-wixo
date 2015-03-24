@@ -10,7 +10,7 @@ Turn your Hexo into a Wiki!
 ## Requirements ##
 
 * Hexo >= 3.0
-* [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap) >= 0.8 (optional)
+* [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap) >= 0.0.8 (optional)
 
 ## Features ##
 
