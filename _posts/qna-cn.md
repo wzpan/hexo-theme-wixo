@@ -1,11 +1,11 @@
-title: Questions and Answers（中文）
-date: 2014-03-16 18:10:16
+title: "Questions and Answers（中文）"
+date: "2014-03-16 18:10:16"
 categories: Docs
 ---
 
 {% label Q danger %} `Wixo` 这名字有何含义？
 
-{% label A success %} `Wixo` 意思是 A **wi**ki theme for he**xo** .
+{% label A success %} `Wixo` 意思是 A **wi**ki theme for he**xo** 。
 
 {% label Q danger %} 如何指定某些页面生成 ToC(Table of Contents) ？
 

@@ -1,5 +1,5 @@
-title: Tag Plugins（中文）
-date: 2014-03-16 10:10:16
+title: "Tag Plugins（中文）"
+date: "2014-03-16 10:10:16"
 categories: Docs
 toc: true
 ---
@@ -12,25 +12,20 @@ $ npm install hexo-tag-bootstrap --save
 
 然后就可以像使用其他 hexo tag plugins 一样使用这些 Bootstrap tag plugins 了。
 
-<!-- more -->
-
 ## 文本颜色 ##
 
 插入一段文本，并用特殊的颜色高亮它。
 
 ### 语法 ###
 
-{% raw %}
 ```
 {% textcolor [style] %}
   text string
 {% endtextcolor %}
 ```
-{% endraw %}
 
 ### 示例 ###
 
-{% raw %}
 ```
 {% textcolor muted %}Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.{% endtextcolor %}
 
@@ -44,7 +39,6 @@ $ npm install hexo-tag-bootstrap --save
 
 {% textcolor danger %}Donec ullamcorper nulla non metus auctor fringilla.{% endtextcolor %}
 ```
-{% endraw %}
 
 ### 结果 ###
 
@@ -66,15 +60,12 @@ $ npm install hexo-tag-bootstrap --save
 
 ### 语法 ###
 
-{% raw %}
 ```
 {% btn url text [style] %}
 ```
-{% endraw %}
 
 ### 示例 ###
 
-{% raw %}
 ```
 {% btn http://hahack.com hahack %}
 
@@ -88,7 +79,6 @@ $ npm install hexo-tag-bootstrap --save
 
 {% btn http://hahack.com hahack info %}
 ```
-{% endraw %}
 
 ### 结果 ###
 
@@ -110,15 +100,12 @@ $ npm install hexo-tag-bootstrap --save
 
 ### 语法 ###
 
-{% raw %}
 ```
 {% label text [style] %}
 ```
-{% endraw %}
 
 ### 示例 ###
 
-{% raw %}
 ```
 {% label default %}
 
@@ -132,7 +119,6 @@ $ npm install hexo-tag-bootstrap --save
 
 {% label info info %}
 ```
-{% endraw %}
 
 ### 结果 ###
 
@@ -152,23 +138,17 @@ $ npm install hexo-tag-bootstrap --save
 
 插入一个徽章，并为其指定文本。
 
-{% alert danger %}徽章在 Internet Explorer 8 中无法使用折叠特效，因为它不支持 `:empty` 选择器。{% endalert %}
-
 ### 语法 ###
 
-{% raw %}
 ```
 {% badge text %}
 ```
-{% endraw %}
 
 ### 示例 ###
 
-{% raw %}
 ```
 {% badge 42 %}
 ```
-{% endraw %}
 
 ### 结果 ###
 
@@ -180,17 +160,14 @@ $ npm install hexo-tag-bootstrap --save
 
 ### 语法 ###
 
-{% raw %}
 ```
 {% alert [style] %}
    Alert string
 {% endalert %}
 ```
-{% endraw %}
 
 ### 示例 ###
 
-{% raw %}
 ```
 {% alert warning %}Best check yo self, you're not looking too good.{% endalert %}
 
@@ -200,7 +177,6 @@ $ npm install hexo-tag-bootstrap --save
 
 {% alert info %}This alert needs your attention, but it's not super important.{% endalert %}
 ```
-{% endraw %}
 
 ### 结果 ###
 

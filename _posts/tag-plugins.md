@@ -1,5 +1,5 @@
-title: Tag Plugins
-date: 2014-03-16 10:17:16
+title: "Tag Plugins"
+date: "2014-03-16 10:17:16"
 categories: Docs
 toc: true
 ---
@@ -20,17 +20,14 @@ Convey meaning through color with a handful of emphasis utility classes. These m
 
 ### Syntax ###
 
-{% raw %}
 ```
 {% textcolor [style] %}
   text string
 {% endtextcolor %}
 ```
-{% endraw %}
 
 ### Examples ###
 
-{% raw %}
 ```
 {% textcolor muted %}Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.{% endtextcolor %}
 
@@ -44,7 +41,6 @@ Convey meaning through color with a handful of emphasis utility classes. These m
 
 {% textcolor danger %}Donec ullamcorper nulla non metus auctor fringilla.{% endtextcolor %}
 ```
-{% endraw %}
 
 ### Results ###
 
@@ -66,15 +62,12 @@ Inserts a button with target links, text and specified color.
 
 ### Syntax ###
 
-{% raw %}
 ```
 {% btn url text [style] %}
 ```
-{% endraw %}
 
 ### Examples ###
 
-{% raw %}
 ```
 {% btn http://hahack.com hahack %}
 
@@ -88,7 +81,6 @@ Inserts a button with target links, text and specified color.
 
 {% btn http://hahack.com hahack info %}
 ```
-{% endraw %}
 
 ### Results ###
 
@@ -110,15 +102,12 @@ Inserts a label with text and specified color.
 
 ### Syntax ###
 
-{% raw %}
 ```
 {% label text [style] %}
 ```
-{% endraw %}
 
 ### Examples ###
 
-{% raw %}
 ```
 {% label default %}
 
@@ -132,7 +121,6 @@ Inserts a label with text and specified color.
 
 {% label info info %}
 ```
-{% endraw %}
 
 ### Results ###
 
@@ -156,19 +144,15 @@ Inserts a badge with text.
 
 ### Syntax ###
 
-{% raw %}
 ```
 {% badge text %}
 ```
-{% endraw %}
 
 ### Examples ###
 
-{% raw %}
 ```
 {% badge 42 %}
 ```
-{% endraw %}
 
 ### Results ###
 
@@ -180,17 +164,14 @@ Inserts alert messages with text and specified color.
 
 ### Syntax ###
 
-{% raw %}
 ```
 {% alert [style] %}
    Alert string
 {% endalert %}
 ```
-{% endraw %}
 
 ### Examples ###
 
-{% raw %}
 ```
 {% alert warning %}Best check yo self, you're not looking too good.{% endalert %}
 
@@ -200,7 +181,6 @@ Inserts alert messages with text and specified color.
 
 {% alert info %}This alert needs your attention, but it's not super important.{% endalert %}
 ```
-{% endraw %}
 
 ### Results ###
 

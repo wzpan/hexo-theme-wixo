@@ -1,5 +1,5 @@
-title: Lorem Ipsum
-date: 2014-03-15 20:17:16
+title: "Lorem Ipsum"
+date: "2014-03-15 20:17:16"
 categories: Tests
 ---
 
