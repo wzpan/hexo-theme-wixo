@@ -140,8 +140,6 @@ Inserts a label with text and specified color.
 
 Inserts a badge with text.
 
-{% alert danger %}Badges won't self collapse in Internet Explorer 8 because it lacks support for the `:empty` selector.{% endalert %}
-
 ### Syntax ###
 
 ```

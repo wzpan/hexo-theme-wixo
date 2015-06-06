@@ -15,8 +15,6 @@ categories: Docs
 
 {% label A success %} In the [source](https://github.com/wzpan/hexo-theme-wixo/tree/source) branch.
 
-{% label Q danger %} Why my boostrap tags always break lines? How to avoid that?
+{% label Q danger %} Why some of my notebooks cannot be opened?
 
-{% label A success %} The problem is due to the markdown settings. Try to disable the `breaks` config in your root _config.yml. *e.g.*
-
-<script src="https://gist.github.com/wzpan/9967986.js"></script>
+{% label A success %} Do not use spaces when naming your notebooks/categories like "Code Book". Use `_` if you have to *e.g.* "Code_Book".

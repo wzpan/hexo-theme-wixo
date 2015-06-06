@@ -15,8 +15,6 @@ categories: Docs
 
 {% label A success %} 在项目的 [source](https://github.com/wzpan/hexo-theme-wixo/tree/source) 分支。
 
-{% label Q danger %} 为啥我在插入 bootstrap 插件后总是自动折行？
+{% label Q danger %} 为什么我有些笔记本打不开？
 
-{% label A success %} 这个问题是你的 Markdown 设置引起的。解决办法是在你的 Hexo 的 _config.yml 文件中禁用 Markdown 的 `breaks` 选项：
-
-<script src="https://gist.github.com/wzpan/9967986.js"></script>
+{% label A success %} 给你的笔记本/文章分类取名时不要加空格，例如 “饭 祷 爱” 。如果非加不可，可以考虑使用 `_` ，例如 “饭_祷_爱” 。
