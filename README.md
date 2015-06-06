@@ -58,12 +58,14 @@ fancybox: true
 favicon: favicon.png
 fold: true
 google_analytics:
+scratch_name: Scratch
 ```
 
 * **rss** - RSS link
 * **fancybox** - enable [Fancybox](http://fancyapps.com/fancybox/)
 * **fold** - whether to fold all the notebooks
 * **google_analytics** - Google Analytics ID
+* **scratch_name** - Notebook name of posts without categories variables
 
 ## Front-Matter ##
 

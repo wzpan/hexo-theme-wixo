@@ -8,9 +8,9 @@
 		<% if (post.title == page.title){ %>
 			<% is_cur = true %>
 			<% prev_post = last_post %>
-		<% } else if (is_cur == false && page.categories && post.categories.data[0]._id == page.categories.data[0]._id) { %>
+		<% } else if (is_cur == false && ((post.categories.length == 0 && page.categories.length ==0) || (post.categories.length > 0 && page.categories.length > 0 && post.categories.data[0]._id == page.categories.data[0]._id))) { %>
 			<% last_post = post %>
-		<% } else if (is_cur == true && page.categories && post.categories.data[0]._id == page.categories.data[0]._id) { %>
+		<% } else if (is_cur == true && ((post.categories.length == 0 && page.categories.length ==0) || (post.categories.length > 0 && page.categories.length > 0 && post.categories.data[0]._id == page.categories.data[0]._id))) { %>
 			<% next_post = post %>
 			<% is_cur = false %>
 			<% return false %>

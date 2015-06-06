@@ -1,5 +1,6 @@
 rss: atom.xml
 fancybox: true
 favicon: favicon.png
-fold: false
-google_analytics: 
+fold: false  # Whether to fold all the notebooks initially
+scratch_name: Scratch  # Notebook name of posts without categories variables
+google_analytics:
