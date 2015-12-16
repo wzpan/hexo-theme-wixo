@@ -4,8 +4,10 @@
 	<% var prev_post = [] %>
 	<% var next_post = [] %>
 	<% var is_cur = false %>
+	<% if (page.categories != null) { %>
 	<% site.posts.sort('date', -1).each(function(post){ %>
-		<% if (post.title == page.title){ %>
+		<% console.log(post) %>
+		<% if (post._id == page._id){ %>
 			<% is_cur = true %>
 			<% prev_post = last_post %>
 		<% } else if (is_cur == false && ((post.categories.length == 0 && page.categories.length ==0) || (post.categories.length > 0 && page.categories.length > 0 && post.categories.data[0]._id == page.categories.data[0]._id))) { %>
@@ -16,6 +18,7 @@
 			<% return false %>
 		<% } %>
 	<% }); %>
+	<% } %>
 	<% if (prev_post.path) { %>
 		<li class="prev"><a href="<%- url_for(prev_post.path) %>" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i><%= __('prev') %></a></li>
 	<% } else { %>
