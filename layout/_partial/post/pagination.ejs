@@ -6,7 +6,6 @@
 	<% var is_cur = false %>
 	<% if (page.categories != null) { %>
 	<% site.posts.sort('date', -1).each(function(post){ %>
-		<% console.log(post) %>
 		<% if (post._id == page._id){ %>
 			<% is_cur = true %>
 			<% prev_post = last_post %>
