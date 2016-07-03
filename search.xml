@@ -11,143 +11,84 @@
 <p>, where <code>theme</code> here indicates which theme you are going to use, and <code>inverse</code> here says you want inverse color scheme on some important components such as navigation bar and header title.</p>
 <p>User contributions are welcome! If you want to contribute a color theme, you can <a href="https://github.com/wzpan/hexo-theme-freemind/tree/dev" target="_blank" rel="external">fork the dev branch</a> . Write a new theme in LESS and send me a pull request.</p>
 <a id="more"></a>
-<h2 id="bootstrap">bootstrap</h2>
-<h3 id="default">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/bootstrap.png" alt="bootstrap"></p>
-<h3 id="inverse">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/bootstrap-inverse.png" alt="bootstrap-inverse"></p>
-<h2 id="cerulean">cerulean</h2>
-<h3 id="default-v2">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/cerulean.png" alt="cerulean"></p>
-<h3 id="inverse-v2">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/cerulean-inverse.png" alt="cerulean-inverse"></p>
-<h2 id="cosmo">cosmo</h2>
-<h3 id="default-v3">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/cosmo.png" alt="cosmo"></p>
-<h3 id="inverse-v3">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/cosmo-inverse.png" alt="cosmo-inverse"></p>
-<h2 id="cyborg">cyborg</h2>
-<h3 id="default-v4">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/cyborg.png" alt="cyborg"></p>
-<h3 id="inverse-v4">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/cyborg-inverse.png" alt="cyborg-inverse"></p>
-<h2 id="darkly">darkly</h2>
-<h3 id="default-v5">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/darkly.png" alt="darkly"></p>
-<h3 id="inverse-v5">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/darkly-inverse.png" alt="darkly-inverse"></p>
-<h2 id="flatly">flatly</h2>
-<h3 id="default-v6">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/flatly.png" alt="flatly"></p>
-<h3 id="inverse-v6">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/flatly-inverse.png" alt="flatly"></p>
-<h2 id="journal">journal</h2>
-<h3 id="default-v7">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/journal.png" alt="journal"></p>
-<h3 id="inverse-v7">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/journal-inverse.png" alt="journal-inverse"></p>
-<h2 id="lumen">lumen</h2>
-<h3 id="default-v8">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/lumen.png" alt="lumen"></p>
-<h3 id="inverse-v8">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/lumen-inverse.png" alt="lumen-inverse"></p>
-<h2 id="paper">paper</h2>
-<h3 id="default-v9">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/paper.png" alt="paper"></p>
-<h3 id="inverse-v9">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/paper-inverse.png" alt="paper-inverse"></p>
-<h2 id="readable">readable</h2>
-<h3 id="default-v10">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/readable.png" alt="readable"></p>
-<h3 id="inverse-v10">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/readable-inverse.png" alt="readable-inverse"></p>
-<h2 id="sandstone">sandstone</h2>
-<h3 id="default-v11">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/sandstone.png" alt="sandstone"></p>
-<h3 id="inverse-v11">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/sandstone-inverse.png" alt="sandstone-inverse"></p>
-<h2 id="simplex">simplex</h2>
-<h3 id="default-v12">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/simplex.png" alt="simplex"></p>
-<h3 id="inverse-v12">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/simplex-inverse.png" alt="simplex-inverse"></p>
-<h2 id="slate">slate</h2>
-<h3 id="default-v13">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/slate.png" alt="slate"></p>
-<h3 id="inverse-v13">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/slate-inverse.png" alt="slate-inverse"></p>
-<h2 id="spacelab">spacelab</h2>
-<h3 id="default-v14">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/spacelab.png" alt="spacelab"></p>
-<h3 id="inverse-v14">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/spacelab-inverse.png" alt="spacelab-inverse"></p>
-<h2 id="superhero">superhero</h2>
-<h3 id="default-v15">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/superhero.png" alt="superhero"></p>
-<h3 id="inverse-v15">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/superhero-inverse.png" alt="superhero-inverse"></p>
-<h2 id="united">united</h2>
-<h3 id="default-v16">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/united.png" alt="united"></p>
-<h3 id="inverse-v16">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/united-inverse.png" alt="united-inverse"></p>
-<h2 id="yeti">yeti</h2>
-<h3 id="default-v17">default</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/yeti.png" alt="yeti"></p>
-<h3 id="inverse-v17">inverse</h3>
-<p><img src="/hexo-theme-freemind/images/color-themes/yeti-inverse.png" alt="yeti-inverse"></p>
+<h2 id="bootstrap"><a href="#bootstrap" class="headerlink" title="bootstrap"></a>bootstrap</h2><h3 id="default"><a href="#default" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/bootstrap.png" alt="bootstrap"></p>
+<h3 id="inverse"><a href="#inverse" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/bootstrap-inverse.png" alt="bootstrap-inverse"></p>
+<h2 id="cerulean"><a href="#cerulean" class="headerlink" title="cerulean"></a>cerulean</h2><h3 id="default-1"><a href="#default-1" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/cerulean.png" alt="cerulean"></p>
+<h3 id="inverse-1"><a href="#inverse-1" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/cerulean-inverse.png" alt="cerulean-inverse"></p>
+<h2 id="cosmo"><a href="#cosmo" class="headerlink" title="cosmo"></a>cosmo</h2><h3 id="default-2"><a href="#default-2" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/cosmo.png" alt="cosmo"></p>
+<h3 id="inverse-2"><a href="#inverse-2" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/cosmo-inverse.png" alt="cosmo-inverse"></p>
+<h2 id="cyborg"><a href="#cyborg" class="headerlink" title="cyborg"></a>cyborg</h2><h3 id="default-3"><a href="#default-3" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/cyborg.png" alt="cyborg"></p>
+<h3 id="inverse-3"><a href="#inverse-3" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/cyborg-inverse.png" alt="cyborg-inverse"></p>
+<h2 id="darkly"><a href="#darkly" class="headerlink" title="darkly"></a>darkly</h2><h3 id="default-4"><a href="#default-4" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/darkly.png" alt="darkly"></p>
+<h3 id="inverse-4"><a href="#inverse-4" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/darkly-inverse.png" alt="darkly-inverse"></p>
+<h2 id="flatly"><a href="#flatly" class="headerlink" title="flatly"></a>flatly</h2><h3 id="default-5"><a href="#default-5" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/flatly.png" alt="flatly"></p>
+<h3 id="inverse-5"><a href="#inverse-5" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/flatly-inverse.png" alt="flatly"></p>
+<h2 id="journal"><a href="#journal" class="headerlink" title="journal"></a>journal</h2><h3 id="default-6"><a href="#default-6" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/journal.png" alt="journal"></p>
+<h3 id="inverse-6"><a href="#inverse-6" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/journal-inverse.png" alt="journal-inverse"></p>
+<h2 id="lumen"><a href="#lumen" class="headerlink" title="lumen"></a>lumen</h2><h3 id="default-7"><a href="#default-7" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/lumen.png" alt="lumen"></p>
+<h3 id="inverse-7"><a href="#inverse-7" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/lumen-inverse.png" alt="lumen-inverse"></p>
+<h2 id="paper"><a href="#paper" class="headerlink" title="paper"></a>paper</h2><h3 id="default-8"><a href="#default-8" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/paper.png" alt="paper"></p>
+<h3 id="inverse-8"><a href="#inverse-8" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/paper-inverse.png" alt="paper-inverse"></p>
+<h2 id="readable"><a href="#readable" class="headerlink" title="readable"></a>readable</h2><h3 id="default-9"><a href="#default-9" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/readable.png" alt="readable"></p>
+<h3 id="inverse-9"><a href="#inverse-9" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/readable-inverse.png" alt="readable-inverse"></p>
+<h2 id="sandstone"><a href="#sandstone" class="headerlink" title="sandstone"></a>sandstone</h2><h3 id="default-10"><a href="#default-10" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/sandstone.png" alt="sandstone"></p>
+<h3 id="inverse-10"><a href="#inverse-10" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/sandstone-inverse.png" alt="sandstone-inverse"></p>
+<h2 id="simplex"><a href="#simplex" class="headerlink" title="simplex"></a>simplex</h2><h3 id="default-11"><a href="#default-11" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/simplex.png" alt="simplex"></p>
+<h3 id="inverse-11"><a href="#inverse-11" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/simplex-inverse.png" alt="simplex-inverse"></p>
+<h2 id="slate"><a href="#slate" class="headerlink" title="slate"></a>slate</h2><h3 id="default-12"><a href="#default-12" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/slate.png" alt="slate"></p>
+<h3 id="inverse-12"><a href="#inverse-12" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/slate-inverse.png" alt="slate-inverse"></p>
+<h2 id="spacelab"><a href="#spacelab" class="headerlink" title="spacelab"></a>spacelab</h2><h3 id="default-13"><a href="#default-13" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/spacelab.png" alt="spacelab"></p>
+<h3 id="inverse-13"><a href="#inverse-13" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/spacelab-inverse.png" alt="spacelab-inverse"></p>
+<h2 id="superhero"><a href="#superhero" class="headerlink" title="superhero"></a>superhero</h2><h3 id="default-14"><a href="#default-14" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/superhero.png" alt="superhero"></p>
+<h3 id="inverse-14"><a href="#inverse-14" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/superhero-inverse.png" alt="superhero-inverse"></p>
+<h2 id="united"><a href="#united" class="headerlink" title="united"></a>united</h2><h3 id="default-15"><a href="#default-15" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/united.png" alt="united"></p>
+<h3 id="inverse-15"><a href="#inverse-15" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/united-inverse.png" alt="united-inverse"></p>
+<h2 id="yeti"><a href="#yeti" class="headerlink" title="yeti"></a>yeti</h2><h3 id="default-16"><a href="#default-16" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/yeti.png" alt="yeti"></p>
+<h3 id="inverse-16"><a href="#inverse-16" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/yeti-inverse.png" alt="yeti-inverse"></p>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Questions and Answers]]></title>
       <url>http://wzpan.github.io/hexo-theme-freemind/hexo-theme-freemind/2014/03/16/qna/</url>
-      <content type="html"><![CDATA[<span class="label label-danger">Q</span> What does `Freemind` stands for?
-<span class="label label-success">A</span> `Freemind` is named after [Pluskid's blog](http://freemind.pluskid.org/). This theme is greatly inspired by his blog layouts and stylesheets.
-<span class="label label-danger">Q</span> There're already so many themes for Hexo. Why create this one?
-<span class="label label-success">A</span> In fact I created this theme before I turned to use Hexo. I switched to Hexo about half an year ago, including my theme, since I have already got used to it and don't wanna change it for now.
-<a id="more"></a>
-<span class="label label-danger">Q</span> Why use raw CSS stylesheets instead of more fashionable stylus?
-<span class="label label-success">A</span> Yes, stylus is cool. But I don't want to wrote my stylesheets again in stylus. So let's just keep them.
-<span class="label label-danger">Q</span> I love your theme. How to contribute?
-<span class="label label-success">A</span> Great that you love it. To devote your contribution, you can:
+      <content type="html"><![CDATA[<span class="label label-danger">Q</span> What does <code>Freemind</code> stands for?<br><br><span class="label label-success">A</span> <code>Freemind</code> is named after <a href="http://freemind.pluskid.org/" target="_blank" rel="external">Pluskid’s blog</a>. This theme is greatly inspired by his blog layouts and stylesheets.<br><br><span class="label label-danger">Q</span> There’re already so many themes for Hexo. Why create this one?<br><br><span class="label label-success">A</span> In fact I created this theme before I turned to use Hexo. I switched to Hexo about half an year ago, including my theme, since I have already got used to it and don’t wanna change it for now.<br><br><a id="more"></a>
+<p><span class="label label-danger">Q</span> Why use raw CSS stylesheets instead of more fashionable stylus?</p>
+<p><span class="label label-success">A</span> Yes, stylus is cool. But I don’t want to wrote my stylesheets again in stylus. So let’s just keep them.</p>
+<p><span class="label label-danger">Q</span> I love your theme. How to contribute?</p>
+<p><span class="label label-success">A</span> Great that you love it. To devote your contribution, you can:</p>
 <ul>
 <li>Star its <a href="https://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Github project</a>;</li>
 <li>Fork this project, make your change, and then send me your pull request;</li>
 <li>Since it is public under MIT license, you can make your own theme based on mine. But it will be nicer if you claimed that your work is based on mine in your theme project page.</li>
 </ul>
-<span class="label label-danger">Q</span> [Your blog](http://hahack.com) looks a little different to this theme. Why such difference?
-<span class="label label-success">A</span> Yes. I modified the theme a little bit as I open sourced this theme. I actually did some simplification *e.g.* I removed the whole [Wiki](http://hahack.com/wiki) page because I don't think that everybody need this.
-<span class="label label-danger">Q</span> How to generate ToC(Table of Contents) in a certain page?
-<span class="label label-success">A</span> Add `toc: true` in the [front-matter](https://github.com/wzpan/hexo-theme-freemind#front-matter).
-<span class="label label-danger">Q</span> Where can I find your markdown source files of these docs?
-<span class="label label-success">A</span> In the [source](https://github.com/wzpan/hexo-theme-freemind/tree/source) branch.
+<p><span class="label label-danger">Q</span> <a href="http://hahack.com" target="_blank" rel="external">Your blog</a> looks a little different to this theme. Why such difference?</p>
+<p><span class="label label-success">A</span> Yes. I modified the theme a little bit as I open sourced this theme. I actually did some simplification <em>e.g.</em> I removed the whole <a href="http://hahack.com/wiki" target="_blank" rel="external">Wiki</a> page because I don’t think that everybody need this.</p>
+<p><span class="label label-danger">Q</span> How to generate ToC(Table of Contents) in a certain page?</p>
+<p><span class="label label-success">A</span> Add <code>toc: true</code> in the <a href="https://github.com/wzpan/hexo-theme-freemind#front-matter" target="_blank" rel="external">front-matter</a>.</p>
+<p><span class="label label-danger">Q</span> Where can I find your markdown source files of these docs?</p>
+<p><span class="label label-success">A</span> In the <a href="https://github.com/wzpan/hexo-theme-freemind/tree/source" target="_blank" rel="external">source</a> branch.</p>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Questions and Answers（中文）]]></title>
       <url>http://wzpan.github.io/hexo-theme-freemind/hexo-theme-freemind/2014/03/16/qna-cn/</url>
-      <content type="html"><![CDATA[<span class="label label-danger">Q</span> `Freemind` 这名字有何含义？
-<span class="label label-success">A</span> `Freemind` 命名出自 [Pluskid](http://freemind.pluskid.org/) 的博客。这个主题很大程度借鉴了他的博客的布局和样式。
-<span class="label label-danger">Q</span> 现在都有这么多 Hexo 的主题了，为啥又要写一个？
-<span class="label label-success">A</span> 实际上我这个主题在我使用 Hexo 前已经创建了。我在半年前将博客迁移到 Hexo ，因为我已经习惯了原来的主题，所以顺便把主题也移植了过来。
-<a id="more"></a>
-<span class="label label-danger">Q</span> 为啥还用 CSS 写样式，而不用更高端大气的 stylus ？
-<span class="label label-success">A</span> 嗯，stylus 的确很酷。不过我不想再把以前的样式重写成 stylus 了。所以暂时先保留原来的 CSS。
-<span class="label label-danger">Q</span> 你的博客不错用，如何贡献？
-<span class="label label-success">A</span> 有人喜欢我的东西我就很高兴咯。如果想做出贡献，你可以：
+      <content type="html"><![CDATA[<span class="label label-danger">Q</span> <code>Freemind</code> 这名字有何含义？<br><br><span class="label label-success">A</span> <code>Freemind</code> 命名出自 <a href="http://freemind.pluskid.org/" target="_blank" rel="external">Pluskid</a> 的博客。这个主题很大程度借鉴了他的博客的布局和样式。<br><br><span class="label label-danger">Q</span> 现在都有这么多 Hexo 的主题了，为啥又要写一个？<br><br><span class="label label-success">A</span> 实际上我这个主题在我使用 Hexo 前已经创建了。我在半年前将博客迁移到 Hexo ，因为我已经习惯了原来的主题，所以顺便把主题也移植了过来。<br><br><a id="more"></a>
+<p><span class="label label-danger">Q</span> 为啥还用 CSS 写样式，而不用更高端大气的 stylus ？</p>
+<p><span class="label label-success">A</span> 嗯，stylus 的确很酷。不过我不想再把以前的样式重写成 stylus 了。所以暂时先保留原来的 CSS。</p>
+<p><span class="label label-danger">Q</span> 你的博客不错用，如何贡献？</p>
+<p><span class="label label-success">A</span> 有人喜欢我的东西我就很高兴咯。如果想做出贡献，你可以：</p>
 <ul>
 <li>为本主题的 <a href="https://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Github 项目</a> 加颗星；</li>
 <li>Fork 这个项目，尽情DIY，然后给我发 pull request;</li>
 <li>这个项目遵循 MIT 开源协议，你可以在本主题基础上创建你的主题。不过如果你能在你的主题页面中声明主题基于 Freemind 就再好不过了。</li>
 </ul>
-<span class="label label-danger">Q</span> [你自己的博客](http://hahack.com) 看起来跟这个主题有点不一样呀，为什么？
-<span class="label label-success">A</span> 是的。我在开源这个主题前做了些简化。不是所有人都需要我的博客里的一些特性，比如 [Wiki](http://hahack.com/wiki) 页面。
-<span class="label label-danger">Q</span> 如何指定某些页面生成 ToC(Table of Contents) ？
-<span class="label label-success">A</span> 在[文章头部](https://github.com/wzpan/hexo-theme-freemind#front-matter)添加 `toc: true` 。
-<span class="label label-danger">Q</span> 从哪里可以找到你的这几篇文档的 Markdown 源码？
-<span class="label label-success">A</span> 在项目的 [source](https://github.com/wzpan/hexo-theme-freemind/tree/source) 分支。
+<p><span class="label label-danger">Q</span> <a href="http://hahack.com" target="_blank" rel="external">你自己的博客</a> 看起来跟这个主题有点不一样呀，为什么？</p>
+<p><span class="label label-success">A</span> 是的。我在开源这个主题前做了些简化。不是所有人都需要我的博客里的一些特性，比如 <a href="http://hahack.com/wiki" target="_blank" rel="external">Wiki</a> 页面。</p>
+<p><span class="label label-danger">Q</span> 如何指定某些页面生成 ToC(Table of Contents) ？</p>
+<p><span class="label label-success">A</span> 在<a href="https://github.com/wzpan/hexo-theme-freemind#front-matter" target="_blank" rel="external">文章头部</a>添加 <code>toc: true</code> 。</p>
+<p><span class="label label-danger">Q</span> 从哪里可以找到你的这几篇文档的 Markdown 源码？</p>
+<p><span class="label label-success">A</span> 在项目的 <a href="https://github.com/wzpan/hexo-theme-freemind/tree/source" target="_blank" rel="external">source</a> 分支。</p>
 ]]></content>
     </entry>
     
@@ -157,16 +98,12 @@
       <content type="html"><![CDATA[<p>The freemind theme offers several new tag plugins, so as to fully take advantages of Bootstrap.</p>
 <p>To use these tag plugins, you need to install <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> first. In your blog root folder, execute the following command:</p>
 <figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm <span class="keyword">install </span>hexo-tag-<span class="keyword">bootstrap </span>--save</div></pre></td></tr></table></figure>
-<p>Then you can use these tag plugins in your blog, as easily as you normally do using hexo tag plugins.</p>
+<p>Then you can use these tag plugins in your blog, as easily as you normally do using hexo tag plugins. </p>
 <a id="more"></a>
-<h2 id="text-color">Text Color</h2>
-<p>Convey meaning through color with a handful of emphasis utility classes. These may also be applied to links and will darken on hover just like our default link styles.</p>
-<h3 id="syntax">Syntax</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> [style] %&#125;</span><span class="xml"></span></div><div class="line">  text string</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="examples">Examples</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> muted %&#125;</span><span class="xml"></span></div><div class="line">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> primary %&#125;</span><span class="xml"></span></div><div class="line">Nullam id dolor id nibh ultricies vehicula ut id elit.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> success %&#125;</span><span class="xml"></span></div><div class="line">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> info %&#125;</span><span class="xml"></span></div><div class="line">Maecenas sed diam eget risus varius blandit sit amet non magna.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> warning %&#125;</span><span class="xml"></span></div><div class="line">Etiam porta sem malesuada magna mollis euismod.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> danger %&#125;</span><span class="xml"></span></div><div class="line">Donec ullamcorper nulla non metus auctor fringilla.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="results">Results</h3>
-<p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+<h2 id="Text-Color"><a href="#Text-Color" class="headerlink" title="Text Color"></a>Text Color</h2><p>Convey meaning through color with a handful of emphasis utility classes. These may also be applied to links and will darken on hover just like our default link styles.</p>
+<h3 id="Syntax"><a href="#Syntax" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> [style] %&#125;</span><span class="xml"></span></div><div class="line">  text string</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> muted %&#125;</span><span class="xml"></span></div><div class="line">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> primary %&#125;</span><span class="xml"></span></div><div class="line">Nullam id dolor id nibh ultricies vehicula ut id elit.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> success %&#125;</span><span class="xml"></span></div><div class="line">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> info %&#125;</span><span class="xml"></span></div><div class="line">Maecenas sed diam eget risus varius blandit sit amet non magna.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> warning %&#125;</span><span class="xml"></span></div><div class="line">Etiam porta sem malesuada magna mollis euismod.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> danger %&#125;</span><span class="xml"></span></div><div class="line">Donec ullamcorper nulla non metus auctor fringilla.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h3><p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
 
 <p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
@@ -175,48 +112,32 @@
 <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
 
 <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
-<h2 id="buttons">Buttons</h2>
-<p>Inserts a button with target links, text and specified color.</p>
-<h3 id="syntax-v2">Syntax</h3>
-<figure class="highlight clojure"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% btn url text [style] %&#125;</div></pre></td></tr></table></figure>
-<h3 id="examples-v2">Examples</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack primary %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack success %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack warning %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack danger %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack info %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="results-v2">Results</h3>
-<a class="btn btn-default" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<h2 id="Buttons"><a href="#Buttons" class="headerlink" title="Buttons"></a>Buttons</h2><p>Inserts a button with target links, text and specified color.</p>
+<h3 id="Syntax-1"><a href="#Syntax-1" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight clojure"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% btn url text [style] %&#125;</div></pre></td></tr></table></figure>
+<h3 id="Examples-1"><a href="#Examples-1" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack primary %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack success %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack warning %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack danger %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack info %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="Results-1"><a href="#Results-1" class="headerlink" title="Results"></a>Results</h3><a class="btn btn-default" href="http://hahack.com" target="_blank" rel="external">hahack</a>
 <a class="btn btn-primary" href="http://hahack.com" target="_blank" rel="external">hahack</a>
 <a class="btn btn-success" href="http://hahack.com" target="_blank" rel="external">hahack</a>
 <a class="btn btn-warning" href="http://hahack.com" target="_blank" rel="external">hahack</a>
 <a class="btn btn-danger" href="http://hahack.com" target="_blank" rel="external">hahack</a>
 <a class="btn btn-info" href="http://hahack.com" target="_blank" rel="external">hahack</a>
-<h2 id="labels">Labels</h2>
-<p>Inserts a label with text and specified color.</p>
-<h3 id="syntax-v3">Syntax</h3>
-<figure class="highlight clojure"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% label text [style] %&#125;</div></pre></td></tr></table></figure>
-<h3 id="examples-v3">Examples</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">label</span> default %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> warinng warning %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> success success %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> danger danger %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> primary primary %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> info info %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="results-v3">Results</h3>
-<span class="label label-default">default</span>
+<h2 id="Labels"><a href="#Labels" class="headerlink" title="Labels"></a>Labels</h2><p>Inserts a label with text and specified color.</p>
+<h3 id="Syntax-2"><a href="#Syntax-2" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight clojure"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% label text [style] %&#125;</div></pre></td></tr></table></figure>
+<h3 id="Examples-2"><a href="#Examples-2" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">label</span> default %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> warinng warning %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> success success %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> danger danger %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> primary primary %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> info info %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="Results-2"><a href="#Results-2" class="headerlink" title="Results"></a>Results</h3><span class="label label-default">default</span>
 <span class="label label-warning">warinng</span>
 <span class="label label-success">success</span>
 <span class="label label-danger">danger</span>
 <span class="label label-primary">primary</span>
 <span class="label label-info">info</span>
-<h2 id="badges">Badges</h2>
-<p>Inserts a badge with text.</p>
-<h3 id="syntax-v4">Syntax</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> text %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="examples-v4">Examples</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> 42 %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="results-v4">Results</h3>
-<span class="badge">42</span>
-<h2 id="alerts">Alerts</h2>
-<p>Inserts alert messages with text and specified color.</p>
-<h3 id="syntax-v5">Syntax</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> [style] %&#125;</span><span class="xml"></span></div><div class="line">   Alert string</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="examples-v5">Examples</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> warning %&#125;</span><span class="xml"></span></div><div class="line">Best check yo self, you're not looking too good.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> danger %&#125;</span><span class="xml"></span></div><div class="line">Change a few things up and try submitting again.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> success %&#125;</span><span class="xml"></span></div><div class="line">You successfully read this important alert message.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> info %&#125;</span><span class="xml"></span></div><div class="line">This alert needs your attention, but it's not super important.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="results-v5">Results</h3>
-<div class="alert alert-warning"><i class="fa fa-bell"> Best check yo self, you're not looking too good.</i></div>
+<h2 id="Badges"><a href="#Badges" class="headerlink" title="Badges"></a>Badges</h2><p>Inserts a badge with text.</p>
+<h3 id="Syntax-3"><a href="#Syntax-3" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> text %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="Examples-3"><a href="#Examples-3" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> 42 %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="Results-3"><a href="#Results-3" class="headerlink" title="Results"></a>Results</h3><span class="badge">42</span>
+<h2 id="Alerts"><a href="#Alerts" class="headerlink" title="Alerts"></a>Alerts</h2><p>Inserts alert messages with text and specified color.</p>
+<h3 id="Syntax-4"><a href="#Syntax-4" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> [style] %&#125;</span><span class="xml"></span></div><div class="line">   Alert string</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="Examples-4"><a href="#Examples-4" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> warning %&#125;</span><span class="xml"></span></div><div class="line">Best check yo self, you're not looking too good.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> danger %&#125;</span><span class="xml"></span></div><div class="line">Change a few things up and try submitting again.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> success %&#125;</span><span class="xml"></span></div><div class="line">You successfully read this important alert message.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> info %&#125;</span><span class="xml"></span></div><div class="line">This alert needs your attention, but it's not super important.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="Results-4"><a href="#Results-4" class="headerlink" title="Results"></a>Results</h3><div class="alert alert-warning"><i class="fa fa-bell"> Best check yo self, you're not looking too good.</i></div>
 <div class="alert alert-danger"><i class="fa fa-bug"> Change a few things up and try submitting again.</i></div>
 <div class="alert alert-success"><i class="fa fa-lightbulb-o"> You successfully read this important alert message.</i></div>
 <div class="alert alert-info"><i class="fa fa-info"> This alert needs your attention, but it's not super important.</i></div>
@@ -231,14 +152,10 @@
 <figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm <span class="keyword">install </span>hexo-tag-<span class="keyword">bootstrap </span>--save</div></pre></td></tr></table></figure>
 <p>然后就可以像使用其他 hexo tag plugins 一样使用这些 Bootstrap tag plugins 了。</p>
 <a id="more"></a>
-<h2 id="文本颜色">文本颜色</h2>
-<p>插入一段文本，并用特殊的颜色高亮它。</p>
-<h3 id="语法">语法</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> [style] %&#125;</span><span class="xml"></span></div><div class="line">  text string</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="示例">示例</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> muted %&#125;</span><span class="xml"></span></div><div class="line">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> primary %&#125;</span><span class="xml"></span></div><div class="line">Nullam id dolor id nibh ultricies vehicula ut id elit.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> success %&#125;</span><span class="xml"></span></div><div class="line">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> info %&#125;</span><span class="xml"></span></div><div class="line">Maecenas sed diam eget risus varius blandit sit amet non magna.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> warning %&#125;</span><span class="xml"></span></div><div class="line">Etiam porta sem malesuada magna mollis euismod.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> danger %&#125;</span><span class="xml"></span></div><div class="line">Donec ullamcorper nulla non metus auctor fringilla.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="结果">结果</h3>
-<p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+<h2 id="文本颜色"><a href="#文本颜色" class="headerlink" title="文本颜色"></a>文本颜色</h2><p>插入一段文本，并用特殊的颜色高亮它。</p>
+<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> [style] %&#125;</span><span class="xml"></span></div><div class="line">  text string</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> muted %&#125;</span><span class="xml"></span></div><div class="line">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> primary %&#125;</span><span class="xml"></span></div><div class="line">Nullam id dolor id nibh ultricies vehicula ut id elit.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> success %&#125;</span><span class="xml"></span></div><div class="line">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> info %&#125;</span><span class="xml"></span></div><div class="line">Maecenas sed diam eget risus varius blandit sit amet non magna.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> warning %&#125;</span><span class="xml"></span></div><div class="line">Etiam porta sem malesuada magna mollis euismod.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> danger %&#125;</span><span class="xml"></span></div><div class="line">Donec ullamcorper nulla non metus auctor fringilla.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h3><p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
 
 <p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
@@ -247,48 +164,32 @@
 <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
 
 <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
-<h2 id="按钮-buttons">按钮（Buttons）</h2>
-<p>插入一个按钮，按钮可以带有链接、文本，并可以指定样式。</p>
-<h3 id="语法-v2">语法</h3>
-<figure class="highlight clojure"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% btn url text [style] %&#125;</div></pre></td></tr></table></figure>
-<h3 id="示例-v2">示例</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack primary %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack success %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack warning %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack danger %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack info %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="结果-v2">结果</h3>
-<a class="btn btn-default" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<h2 id="按钮（Buttons）"><a href="#按钮（Buttons）" class="headerlink" title="按钮（Buttons）"></a>按钮（Buttons）</h2><p>插入一个按钮，按钮可以带有链接、文本，并可以指定样式。</p>
+<h3 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h3><figure class="highlight clojure"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% btn url text [style] %&#125;</div></pre></td></tr></table></figure>
+<h3 id="示例-1"><a href="#示例-1" class="headerlink" title="示例"></a>示例</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack primary %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack success %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack warning %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack danger %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack info %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="结果-1"><a href="#结果-1" class="headerlink" title="结果"></a>结果</h3><a class="btn btn-default" href="http://hahack.com" target="_blank" rel="external">hahack</a>
 <a class="btn btn-primary" href="http://hahack.com" target="_blank" rel="external">hahack</a>
 <a class="btn btn-success" href="http://hahack.com" target="_blank" rel="external">hahack</a>
 <a class="btn btn-warning" href="http://hahack.com" target="_blank" rel="external">hahack</a>
 <a class="btn btn-danger" href="http://hahack.com" target="_blank" rel="external">hahack</a>
 <a class="btn btn-info" href="http://hahack.com" target="_blank" rel="external">hahack</a>
-<h2 id="标签-labels">标签（Labels）</h2>
-<p>插入一个标签，并为其指定文本和样式。</p>
-<h3 id="语法-v3">语法</h3>
-<figure class="highlight clojure"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% label text [style] %&#125;</div></pre></td></tr></table></figure>
-<h3 id="示例-v3">示例</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">label</span> default %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> warinng warning %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> success success %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> danger danger %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> primary primary %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> info info %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="结果-v3">结果</h3>
-<span class="label label-default">default</span>
+<h2 id="标签（Labels）"><a href="#标签（Labels）" class="headerlink" title="标签（Labels）"></a>标签（Labels）</h2><p>插入一个标签，并为其指定文本和样式。</p>
+<h3 id="语法-2"><a href="#语法-2" class="headerlink" title="语法"></a>语法</h3><figure class="highlight clojure"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% label text [style] %&#125;</div></pre></td></tr></table></figure>
+<h3 id="示例-2"><a href="#示例-2" class="headerlink" title="示例"></a>示例</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">label</span> default %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> warinng warning %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> success success %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> danger danger %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> primary primary %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> info info %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="结果-2"><a href="#结果-2" class="headerlink" title="结果"></a>结果</h3><span class="label label-default">default</span>
 <span class="label label-warning">warinng</span>
 <span class="label label-success">success</span>
 <span class="label label-danger">danger</span>
 <span class="label label-primary">primary</span>
 <span class="label label-info">info</span>
-<h2 id="徽章-badges">徽章（Badges）</h2>
-<p>插入一个徽章，并为其指定文本。</p>
-<h3 id="语法-v4">语法</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> text %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="示例-v4">示例</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> 42 %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="结果-v4">结果</h3>
-<span class="badge">42</span>
-<h2 id="警报-alerts">警报（Alerts）</h2>
-<p>插入一段警报文本信息，并为其指定样式。</p>
-<h3 id="语法-v5">语法</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> [style] %&#125;</span><span class="xml"></span></div><div class="line">   Alert string</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="示例-v5">示例</h3>
-<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> warning %&#125;</span><span class="xml"></span></div><div class="line">Best check yo self, you're not looking too good.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> danger %&#125;</span><span class="xml"></span></div><div class="line">Change a few things up and try submitting again.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> success %&#125;</span><span class="xml"></span></div><div class="line">You successfully read this important alert message.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> info %&#125;</span><span class="xml"></span></div><div class="line">This alert needs your attention, but it's not super important.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
-<h3 id="结果-v5">结果</h3>
-<div class="alert alert-warning"><i class="fa fa-bell"> Best check yo self, you're not looking too good.</i></div>
+<h2 id="徽章（Badges）"><a href="#徽章（Badges）" class="headerlink" title="徽章（Badges）"></a>徽章（Badges）</h2><p>插入一个徽章，并为其指定文本。</p>
+<h3 id="语法-3"><a href="#语法-3" class="headerlink" title="语法"></a>语法</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> text %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="示例-3"><a href="#示例-3" class="headerlink" title="示例"></a>示例</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> 42 %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="结果-3"><a href="#结果-3" class="headerlink" title="结果"></a>结果</h3><span class="badge">42</span>
+<h2 id="警报（Alerts）"><a href="#警报（Alerts）" class="headerlink" title="警报（Alerts）"></a>警报（Alerts）</h2><p>插入一段警报文本信息，并为其指定样式。</p>
+<h3 id="语法-4"><a href="#语法-4" class="headerlink" title="语法"></a>语法</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> [style] %&#125;</span><span class="xml"></span></div><div class="line">   Alert string</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="示例-4"><a href="#示例-4" class="headerlink" title="示例"></a>示例</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> warning %&#125;</span><span class="xml"></span></div><div class="line">Best check yo self, you're not looking too good.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> danger %&#125;</span><span class="xml"></span></div><div class="line">Change a few things up and try submitting again.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> success %&#125;</span><span class="xml"></span></div><div class="line">You successfully read this important alert message.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> info %&#125;</span><span class="xml"></span></div><div class="line">This alert needs your attention, but it's not super important.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="结果-4"><a href="#结果-4" class="headerlink" title="结果"></a>结果</h3><div class="alert alert-warning"><i class="fa fa-bell"> Best check yo self, you're not looking too good.</i></div>
 <div class="alert alert-danger"><i class="fa fa-bug"> Change a few things up and try submitting again.</i></div>
 <div class="alert alert-success"><i class="fa fa-lightbulb-o"> You successfully read this important alert message.</i></div>
 <div class="alert alert-info"><i class="fa fa-info"> This alert needs your attention, but it's not super important.</i></div>
@@ -439,6 +340,12 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Categories]]></title>
+      <url>http://wzpan.github.io/hexo-theme-freemind/categories/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[About]]></title>
       <url>http://wzpan.github.io/hexo-theme-freemind/about/index.html</url>
       <content type="html"><![CDATA[
@@ -449,12 +356,6 @@ Something about me. ;-)
     <entry>
       <title><![CDATA[Tags]]></title>
       <url>http://wzpan.github.io/hexo-theme-freemind/tags/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Categories]]></title>
-      <url>http://wzpan.github.io/hexo-theme-freemind/categories/index.html</url>
       <content type="html"></content>
     </entry>
     
