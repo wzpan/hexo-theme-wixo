@@ -18,6 +18,7 @@ Turn your Hexo into a Wiki!
 * **Bootstrap** - get the power of Twitter Bootstrap with minimal hassle;
 * **Notebook** - notebook-aware post arrangement and pagination. A category is a notebook;
 * **Scrollspy** - automatically updating ToC targets based on scroll position;
+* **Local Search Engine** - a build-in local search engine, with the help of [hexo-generator-search](https://github.com/paichyperiondev/hexo-generator-search).
 * **Tag plugins** - luxuriant Bootstrap tag plugins, provided by [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap), including:
   - textcolor - a paragraph of text with specified color;
   - button - a button with target links, text and specified color;
@@ -60,6 +61,9 @@ inverse_sort: false
 fold: true
 google_analytics:
 scratch_name: Scratch
+search:
+  path: search.xml
+  field: all
 ```
 
 * **rss** - RSS link
