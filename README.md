@@ -34,7 +34,13 @@ Turn your Hexo into a Wiki!
 $ git clone https://github.com/wzpan/hexo-theme-wixo.git themes/wixo
 ```
 
-2) install [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap) (optional):
+2) install [hexo-generator-search](https://github.com/paichyperiondev/hexo-generator-search):
+
+``` sh
+$ npm install hexo-generator-search --save
+```
+
+3) install [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap) (optional):
 
 ``` sh
 $ npm install hexo-tag-bootstrap --save
