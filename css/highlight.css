@@ -2,12 +2,12 @@
 
 /* highlight */
 
-pre, .highlight {  
+pre, .highlight, .gist {  
   background: #333 !important;
   margin: 0.5em 0;
   padding: 1em 2%;
   overflow: auto;
-  color: #ccc!important;
+  color: #ccc;  
   font-size: 14px;
   text-shadow: none;
   -webkit-border-radius: 4px;
@@ -66,6 +66,48 @@ pre code {
   padding: 0;  
 }
 
+/* gist */
+
+.container .gist .gist-file {
+  border: none;
+  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;    
+  margin: 0;
+}
+.container .gist .gist-file .gist-data {
+  background: none;
+  border: none;
+}
+.container .gist .gist-file .gist-data .line-numbers {
+  background: none;
+  border: none;
+  padding-right: 20px;
+  color: #666;
+  text-align: left;  
+}
+.container .gist .gist-file .gist-data .line-data {
+  padding: 0 !important;
+}
+.container .gist .gist-file .highlight {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.container .gist .gist-file .gist-meta {
+  background: #333;
+  color: #999;
+  font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 0 0;
+  padding: 0;
+  margin-top: 1em;
+  margin-left: 20px;
+}
+.container .gist .gist-file .gist-meta a {
+  color: #258fb8;
+  font-weight: normal;
+}
+.container .gist .gist-file .gist-meta a:hover {
+  text-decoration: underline;
+}
 
 /* figcaption */
 
@@ -104,7 +146,7 @@ pre .html .doctype,
 pre .css .id,
 pre .css .class,
 pre .css .pseudo {
-  color: #f2777a!important;
+  color: #f2777a;
 }
 pre .number,
 pre .preprocessor,
@@ -112,12 +154,12 @@ pre .built_in,
 pre .literal,
 pre .params,
 pre .constant {
-  color: #f99157!important;
+  color: #f99157;
 }
 pre .class,
 pre .ruby .class .title,
 pre .css .rules .attribute {
-  color: #9c9!important;
+  color: #9c9;
 }
 pre .string,
 pre .value,
@@ -125,10 +167,10 @@ pre .inheritance,
 pre .header,
 pre .ruby .symbol,
 pre .xml .cdata {
-  color: #9c9!important;
+  color: #9c9;
 }
 pre .css .hexcolor {
-  color: #6cc!important;
+  color: #6cc;
 }
 pre .function,
 pre .python .decorator,
@@ -138,9 +180,9 @@ pre .ruby .title .keyword,
 pre .perl .sub,
 pre .javascript .title,
 pre .coffeescript .title {
-  color: #69c!important;
+  color: #69c;
 }
 pre .keyword,
 pre .javascript .function {
-  color: #c9c!important;
+  color: #c9c;
 }

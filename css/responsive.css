@@ -4,43 +4,93 @@
 /* Desktop large
 ------------------------- */
 @media (min-width: 1200px) {
-  .page .entry .thumbnail{
-    float: right;
-    width: 300px;
+  .sidenav {
+    width: 258px;
+  }
+  .sidenav > li > a {
+    width: 230px \9; /* Override the previous IE8-9 hack */
   }
 }
 
 /* Desktop
 ------------------------- */
-@media (min-width: 980px) and (max-width: 1199px)  {
-  .page .entry .thumbnail{
-    float: right;
-    width: 31.623931623931625%;
-    *width: 31.570740134569924%;
+@media (min-width: 991px) and (max-width: 1199px)  {
+  /* When affixed, space properly */
+  .sidenav {
+    top: 0;
+    width: 218px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 0;
   }
+
 }
 
 /* Tablet to desktop
 ------------------------- */
-@media (min-width: 768px) and (max-width: 979px) {
-  .page .entry .thumbnail{
-    float: right;
-    width: 200px;
+@media (min-width: 768px) and (max-width: 990px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
   }
+
+  /* Adjust sidenav width */
+  .sidenav {
+    width: 166px;
+    margin-top: 20px;
+  }
+  
 }
 
 /* Tablet
 ------------------------- */
 @media (min-width: 481px) and (max-width: 767px) {
-  .page .entry .thumbnail{
-    float: right;
-    width: 31.491712707182323%;
-    *width: 31.43852121782062%;
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+
+  /* Sidenav */
+  .sidenav {
+    margin-bottom: 20px;
+    position: static;
+    width: auto;
+    top: 0;
+  }
+
+  .page-header h1 span.date{
+	display:block; overflow: hidden; width: 0; height: 0;
   }
 }
 
+/* Landscape phones
+------------------------- */
 @media (max-width: 480px) {
-  .page .entry .thumbnail{
-	margin-left: 0;
+  /* Remove padding above jumbotron */
+  body {
+    padding-top: 0;
   }
+
+  /* Change up some type stuff */
+  h2 small {
+    display: block;
+  }
+
+  /* Do our best to make tables work in narrow viewports */
+  table code {
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+
+  .sidenav{
+    position: static;
+    width: auto;
+    top: 0;
+  }
+
+  .page-header h1 span.date{
+	display:block; overflow: hidden; width: 0; height: 0; 
+  }
+
 }
