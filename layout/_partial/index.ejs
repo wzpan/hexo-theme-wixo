@@ -1,3 +1,11 @@
+<%
+  if (theme.inverse_sort) {
+      var posts = site.posts.sort('date', -1) ;
+  } else {
+      var posts = site.posts.sort('date', 1);
+  }
+%>
+
 <div class="row page">
 	<div class="col-md-12">
 		<div class="panel-group" id="notebook">
@@ -13,8 +21,8 @@
 					<div id="<%= cat.name %>" class="panel-collapse collapse in">
 				<% } %>
 						<div class="panel-body">
-							<ul class="post">
-								<% site.posts.sort('date', -1).each(function(it){ %>
+							<ul class="post">                                
+								<% posts.each(function(it){ %>
 								    <% if (it.categories.length == 1 && it.categories.data[0]._id == cat._id){ %>
 								        <li class="post-list-item"><a href="<%= config.root %><%= it.path %>"><%= it.title %></a></li>
 								    <% } %>
@@ -25,7 +33,7 @@
 			</div>
 			<% }); %>
 			<% var has_scratch = -1 %>
-			<% site.posts.sort('date', -1).each(function(it){ %>
+			<% posts.each(function(it){ %>
 			<% if (has_scratch == -1 && it.categories.length == 0) { %>
 			<% has_scratch = 1 %>
 			<div class="panel panel-default">
@@ -44,7 +52,7 @@
             <% } %>
 			<% }); %>
 			<% if (has_scratch == 1) { %>
-			    <% site.posts.sort('date', -1).each(function(it){ %>
+			    <% posts.each(function(it){ %>
 			                    <% if (it.categories.length == 0){ %>
 			                    <li class="post-list-item"><a href="<%= config.root %><%= it.path %>"><%= it.title %></a></li>
 			                    <% } %>
