@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Tag Plugins（中文） | Wixo</title>
+  <meta name="author" content="Joseph Pan">
+  
+  <meta name="description" content="Introduce tag plugins in freemind.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Tag Plugins（中文）"/>
+  <meta property="og:site_name" content="Wixo"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+    <link rel="alternative" href="/hexo-theme-wixo/atom.xml" title="Wixo" type="application/atom+xml">
+  
+  
+    <link href="/hexo-theme-wixo/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/hexo-theme-wixo/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/hexo-theme-wixo/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/hexo-theme-wixo/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/hexo-theme-wixo/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/hexo-theme-wixo/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/hexo-theme-wixo/css/responsive.css" media="screen" type="text/css">  
+  <link rel="stylesheet" href="/hexo-theme-wixo/css/sidenav.css" media="screen" type="text/css">  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/hexo-theme-wixo/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+</head>
+
+<body id="body" data-spy="scroll" data-target=".toc">
+  <div class="container" id="container">
+	<div class="content">
+	  <div class="page-header">		
+  <h1><a class="brand" href="/hexo-theme-wixo/">Wixo</a><span class="split"></span><span class="title">Tag Plugins（中文）</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2014-03-16</span></h1>
+</div>		
+
+<div class="row page">
+  <!-- cols -->	
+  
+  <div class="col-xs-12 col-sm-3 col-md-3 toc"> 
+	<!-- toc -->
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+ 		   generateWikiTOC('.note', '.toc',  2 , 2 );
+		});
+</script>
+  </div><!-- col-md-3 -->
+  
+  
+
+  
+  <div class="col-xs-12 col-sm-9 col-md-9 note">
+	
+
+	  <!-- content -->
+	  <p>Freemind 主题提供了丰富的 tag plugins，以充分利用 Bootstrap 的威力。</p>
+<p>在使用这些 tag plugins 之前，你需要先安装 <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> 。在你的 Hexo 博客目录，执行下列命令：</p>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm <span class="keyword">install </span>hexo-tag-<span class="keyword">bootstrap </span>--save</div></pre></td></tr></table></figure>
+<p>然后就可以像使用其他 hexo tag plugins 一样使用这些 Bootstrap tag plugins 了。</p>
+<a id="more"></a>
+<h2 id="文本颜色"><a href="#文本颜色" class="headerlink" title="文本颜色"></a>文本颜色</h2><p>插入一段文本，并用特殊的颜色高亮它。</p>
+<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> [style] %&#125;</span><span class="xml"></span></div><div class="line">  text string</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">textcolor</span> muted %&#125;</span><span class="xml"></span></div><div class="line">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> primary %&#125;</span><span class="xml"></span></div><div class="line">Nullam id dolor id nibh ultricies vehicula ut id elit.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> success %&#125;</span><span class="xml"></span></div><div class="line">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> info %&#125;</span><span class="xml"></span></div><div class="line">Maecenas sed diam eget risus varius blandit sit amet non magna.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> warning %&#125;</span><span class="xml"></span></div><div class="line">Etiam porta sem malesuada magna mollis euismod.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">textcolor</span> danger %&#125;</span><span class="xml"></span></div><div class="line">Donec ullamcorper nulla non metus auctor fringilla.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endtextcolor</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h3><p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+
+<p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+
+<p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+<p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+
+<p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+<h2 id="按钮（Buttons）"><a href="#按钮（Buttons）" class="headerlink" title="按钮（Buttons）"></a>按钮（Buttons）</h2><p>插入一个按钮，按钮可以带有链接、文本，并可以指定样式。</p>
+<h3 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h3><figure class="highlight clojure"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% btn url text [style] %&#125;</div></pre></td></tr></table></figure>
+<h3 id="示例-1"><a href="#示例-1" class="headerlink" title="示例"></a>示例</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack primary %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack success %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack warning %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack danger %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">btn</span> http://hahack.com hahack info %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="结果-1"><a href="#结果-1" class="headerlink" title="结果"></a>结果</h3><a class="btn btn-default" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<!-- -->
+<a class="btn btn-primary" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<!-- -->
+<a class="btn btn-success" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<!-- -->
+<a class="btn btn-warning" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<!-- -->
+<a class="btn btn-danger" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<!-- -->
+<a class="btn btn-info" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<!-- -->
+<h2 id="标签（Labels）"><a href="#标签（Labels）" class="headerlink" title="标签（Labels）"></a>标签（Labels）</h2><p>插入一个标签，并为其指定文本和样式。</p>
+<h3 id="语法-2"><a href="#语法-2" class="headerlink" title="语法"></a>语法</h3><figure class="highlight clojure"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% label text [style] %&#125;</div></pre></td></tr></table></figure>
+<h3 id="示例-2"><a href="#示例-2" class="headerlink" title="示例"></a>示例</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">label</span> default %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> warinng warning %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> success success %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> danger danger %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> primary primary %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> info info %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="结果-2"><a href="#结果-2" class="headerlink" title="结果"></a>结果</h3><span class="label label-default">default</span>
+<!-- -->
+<span class="label label-warning">warinng</span>
+<!-- -->
+<span class="label label-success">success</span>
+<!-- -->
+<span class="label label-danger">danger</span>
+<!-- -->
+<span class="label label-primary">primary</span>
+<!-- -->
+<span class="label label-info">info</span>
+<!-- -->
+<h2 id="徽章（Badges）"><a href="#徽章（Badges）" class="headerlink" title="徽章（Badges）"></a>徽章（Badges）</h2><p>插入一个徽章，并为其指定文本。</p>
+<h3 id="语法-3"><a href="#语法-3" class="headerlink" title="语法"></a>语法</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> text %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="示例-3"><a href="#示例-3" class="headerlink" title="示例"></a>示例</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> 42 %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="结果-3"><a href="#结果-3" class="headerlink" title="结果"></a>结果</h3><span class="badge">42</span>
+<h2 id="警报（Alerts）"><a href="#警报（Alerts）" class="headerlink" title="警报（Alerts）"></a>警报（Alerts）</h2><p>插入一段警报文本信息，并为其指定样式。</p>
+<h3 id="语法-4"><a href="#语法-4" class="headerlink" title="语法"></a>语法</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> [style] %&#125;</span><span class="xml"></span></div><div class="line">   Alert string</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="示例-4"><a href="#示例-4" class="headerlink" title="示例"></a>示例</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> warning %&#125;</span><span class="xml"></span></div><div class="line">Best check yo self, you're not looking too good.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> danger %&#125;</span><span class="xml"></span></div><div class="line">Change a few things up and try submitting again.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> success %&#125;</span><span class="xml"></span></div><div class="line">You successfully read this important alert message.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> info %&#125;</span><span class="xml"></span></div><div class="line">This alert needs your attention, but it's not super important.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="结果-4"><a href="#结果-4" class="headerlink" title="结果"></a>结果</h3><div class="alert alert-warning"><i class="fa fa-bell"> Best check yo self, you're not looking too good.</i></div>
+<div class="alert alert-danger"><i class="fa fa-bug"> Change a few things up and try submitting again.</i></div>
+<div class="alert alert-success"><i class="fa fa-lightbulb-o"> You successfully read this important alert message.</i></div>
+<div class="alert alert-info"><i class="fa fa-info"> This alert needs your attention, but it's not super important.</i></div>
+	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+			
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+		<li class="prev"><a href="/hexo-theme-wixo/Docs/tag-plugins/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/hexo-theme-wixo/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next disabled"><a>next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
+</div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+	<footer> <p>
+  &copy; 2017 Joseph Pan
+  
+      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+</p> </footer>
+  </div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/hexo-theme-wixo/js/jquery.imagesloaded.min.js"></script>
+<script src="/hexo-theme-wixo/js/gallery.js"></script>
+<script src="/hexo-theme-wixo/js/bootstrap.min.js"></script>
+<script src="/hexo-theme-wixo/js/jquery.tableofcontents.min.js"></script>
+<script src="/hexo-theme-wixo/js/tocgenerator.min.js"></script>
+<script src="/hexo-theme-wixo/js/main.js"></script>
+<script src="/hexo-theme-wixo/js/search.js"></script> 
+
+
+
+
+<link rel="stylesheet" href="/hexo-theme-wixo/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/hexo-theme-wixo/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/hexo-theme-wixo/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+
+</body>
+</html>
