@@ -4,51 +4,6 @@
   
     
     <entry>
-      <title><![CDATA[Color Themes]]></title>
-      <url>http://wzpan.github.io/hexo-theme-wixo/hexo-theme-wixo/Docs/color-themes/</url>
-      <content type="html"><![CDATA[<p>Freemind contains luxuriant color themes for your choice. To use one of them, simply modify the <code>theme</code> and <code>inverse</code> settings from your theme <code>_config.yml</code> file <em>e.g.</em></p>
-<figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="string">theme:</span> bootstrap</div><div class="line"><span class="string">inverse:</span> <span class="literal">true</span></div></pre></td></tr></table></figure>
-<p>, where <code>theme</code> here indicates which theme you are going to use, and <code>inverse</code> here says you want inverse color scheme on some important components such as navigation bar and header title.</p>
-<p>User contributions are welcome! If you want to contribute a color theme, you can <a href="https://github.com/wzpan/hexo-theme-freemind/tree/dev" target="_blank" rel="external">fork the dev branch</a> . Write a new theme in LESS and send me a pull request.</p>
-<a id="more"></a>
-<h2 id="bootstrap"><a href="#bootstrap" class="headerlink" title="bootstrap"></a>bootstrap</h2><h3 id="default"><a href="#default" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/bootstrap.png" alt="bootstrap"></p>
-<h3 id="inverse"><a href="#inverse" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/bootstrap-inverse.png" alt="bootstrap-inverse"></p>
-<h2 id="cerulean"><a href="#cerulean" class="headerlink" title="cerulean"></a>cerulean</h2><h3 id="default-1"><a href="#default-1" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/cerulean.png" alt="cerulean"></p>
-<h3 id="inverse-1"><a href="#inverse-1" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/cerulean-inverse.png" alt="cerulean-inverse"></p>
-<h2 id="cosmo"><a href="#cosmo" class="headerlink" title="cosmo"></a>cosmo</h2><h3 id="default-2"><a href="#default-2" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/cosmo.png" alt="cosmo"></p>
-<h3 id="inverse-2"><a href="#inverse-2" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/cosmo-inverse.png" alt="cosmo-inverse"></p>
-<h2 id="cyborg"><a href="#cyborg" class="headerlink" title="cyborg"></a>cyborg</h2><h3 id="default-3"><a href="#default-3" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/cyborg.png" alt="cyborg"></p>
-<h3 id="inverse-3"><a href="#inverse-3" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/cyborg-inverse.png" alt="cyborg-inverse"></p>
-<h2 id="darkly"><a href="#darkly" class="headerlink" title="darkly"></a>darkly</h2><h3 id="default-4"><a href="#default-4" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/darkly.png" alt="darkly"></p>
-<h3 id="inverse-4"><a href="#inverse-4" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/darkly-inverse.png" alt="darkly-inverse"></p>
-<h2 id="flatly"><a href="#flatly" class="headerlink" title="flatly"></a>flatly</h2><h3 id="default-5"><a href="#default-5" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/flatly.png" alt="flatly"></p>
-<h3 id="inverse-5"><a href="#inverse-5" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/flatly-inverse.png" alt="flatly"></p>
-<h2 id="journal"><a href="#journal" class="headerlink" title="journal"></a>journal</h2><h3 id="default-6"><a href="#default-6" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/journal.png" alt="journal"></p>
-<h3 id="inverse-6"><a href="#inverse-6" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/journal-inverse.png" alt="journal-inverse"></p>
-<h2 id="lumen"><a href="#lumen" class="headerlink" title="lumen"></a>lumen</h2><h3 id="default-7"><a href="#default-7" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/lumen.png" alt="lumen"></p>
-<h3 id="inverse-7"><a href="#inverse-7" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/lumen-inverse.png" alt="lumen-inverse"></p>
-<h2 id="paper"><a href="#paper" class="headerlink" title="paper"></a>paper</h2><h3 id="default-8"><a href="#default-8" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/paper.png" alt="paper"></p>
-<h3 id="inverse-8"><a href="#inverse-8" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/paper-inverse.png" alt="paper-inverse"></p>
-<h2 id="readable"><a href="#readable" class="headerlink" title="readable"></a>readable</h2><h3 id="default-9"><a href="#default-9" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/readable.png" alt="readable"></p>
-<h3 id="inverse-9"><a href="#inverse-9" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/readable-inverse.png" alt="readable-inverse"></p>
-<h2 id="sandstone"><a href="#sandstone" class="headerlink" title="sandstone"></a>sandstone</h2><h3 id="default-10"><a href="#default-10" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/sandstone.png" alt="sandstone"></p>
-<h3 id="inverse-10"><a href="#inverse-10" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/sandstone-inverse.png" alt="sandstone-inverse"></p>
-<h2 id="simplex"><a href="#simplex" class="headerlink" title="simplex"></a>simplex</h2><h3 id="default-11"><a href="#default-11" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/simplex.png" alt="simplex"></p>
-<h3 id="inverse-11"><a href="#inverse-11" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/simplex-inverse.png" alt="simplex-inverse"></p>
-<h2 id="slate"><a href="#slate" class="headerlink" title="slate"></a>slate</h2><h3 id="default-12"><a href="#default-12" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/slate.png" alt="slate"></p>
-<h3 id="inverse-12"><a href="#inverse-12" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/slate-inverse.png" alt="slate-inverse"></p>
-<h2 id="spacelab"><a href="#spacelab" class="headerlink" title="spacelab"></a>spacelab</h2><h3 id="default-13"><a href="#default-13" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/spacelab.png" alt="spacelab"></p>
-<h3 id="inverse-13"><a href="#inverse-13" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/spacelab-inverse.png" alt="spacelab-inverse"></p>
-<h2 id="superhero"><a href="#superhero" class="headerlink" title="superhero"></a>superhero</h2><h3 id="default-14"><a href="#default-14" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/superhero.png" alt="superhero"></p>
-<h3 id="inverse-14"><a href="#inverse-14" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/superhero-inverse.png" alt="superhero-inverse"></p>
-<h2 id="united"><a href="#united" class="headerlink" title="united"></a>united</h2><h3 id="default-15"><a href="#default-15" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/united.png" alt="united"></p>
-<h3 id="inverse-15"><a href="#inverse-15" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/united-inverse.png" alt="united-inverse"></p>
-<h2 id="yeti"><a href="#yeti" class="headerlink" title="yeti"></a>yeti</h2><h3 id="default-16"><a href="#default-16" class="headerlink" title="default"></a>default</h3><p><img src="/hexo-theme-freemind/images/color-themes/yeti.png" alt="yeti"></p>
-<h3 id="inverse-16"><a href="#inverse-16" class="headerlink" title="inverse"></a>inverse</h3><p><img src="/hexo-theme-freemind/images/color-themes/yeti-inverse.png" alt="yeti-inverse"></p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Questions and Answers]]></title>
       <url>http://wzpan.github.io/hexo-theme-wixo/hexo-theme-wixo/Docs/qna/</url>
       <content type="html"><![CDATA[<span class="label label-danger">Q</span> What does <code>Freemind</code> stands for?<br><br><span class="label label-success">A</span> <code>Freemind</code> is named after <a href="http://freemind.pluskid.org/" target="_blank" rel="external">Pluskid’s blog</a>. This theme is greatly inspired by his blog layouts and stylesheets.<br><br><span class="label label-danger">Q</span> There’re already so many themes for Hexo. Why create this one?<br><br><span class="label label-success">A</span> In fact I created this theme before I turned to use Hexo. I switched to Hexo about half an year ago, including my theme, since I have already got used to it and don’t wanna change it for now.<br><br><a id="more"></a>
@@ -120,18 +75,22 @@
 <a class="btn btn-success" href="http://hahack.com" target="_blank" rel="external">hahack</a>
 <a class="btn btn-warning" href="http://hahack.com" target="_blank" rel="external">hahack</a>
 <a class="btn btn-danger" href="http://hahack.com" target="_blank" rel="external">hahack</a>
-<a class="btn btn-info" href="http://hahack.com" target="_blank" rel="external">hahack</a> 测试<br><br>## Labels ##<br><br>Inserts a label with text and specified color.<br><br>### Syntax ###<br><br><figure class="highlight clojure"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% label text [style] %&#125;</div></pre></td></tr></table></figure>
+<a class="btn btn-info" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+<h2 id="Labels"><a href="#Labels" class="headerlink" title="Labels"></a>Labels</h2><p>Inserts a label with text and specified color.</p>
+<h3 id="Syntax-2"><a href="#Syntax-2" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight clojure"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% label text [style] %&#125;</div></pre></td></tr></table></figure>
 <h3 id="Examples-2"><a href="#Examples-2" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">label</span> default %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> warinng warning %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> success success %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> danger danger %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> primary primary %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">label</span> info info %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
 <h3 id="Results-2"><a href="#Results-2" class="headerlink" title="Results"></a>Results</h3><span class="label label-default">default</span>
 <span class="label label-warning">warinng</span>
 <span class="label label-success">success</span>
 <span class="label label-danger">danger</span>
 <span class="label label-primary">primary</span>
-<span class="label label-info">info</span> 测试<br><br>## Badges ##<br><br>Inserts a badge with text.<br><br><br>### Syntax ###<br><br><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> text %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<span class="label label-info">info</span>
+<h2 id="Badges"><a href="#Badges" class="headerlink" title="Badges"></a>Badges</h2><p>Inserts a badge with text.</p>
+<h3 id="Syntax-3"><a href="#Syntax-3" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> text %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
 <h3 id="Examples-3"><a href="#Examples-3" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">badge</span> 42 %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
 <h3 id="Results-3"><a href="#Results-3" class="headerlink" title="Results"></a>Results</h3><span class="badge">42</span>
 <h2 id="Alerts"><a href="#Alerts" class="headerlink" title="Alerts"></a>Alerts</h2><p>Inserts alert messages with text and specified color.</p>
-<h3 id="Syntax-2"><a href="#Syntax-2" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> [style] %&#125;</span><span class="xml"></span></div><div class="line">   Alert string</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<h3 id="Syntax-4"><a href="#Syntax-4" class="headerlink" title="Syntax"></a>Syntax</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> [style] %&#125;</span><span class="xml"></span></div><div class="line">   Alert string</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
 <h3 id="Examples-4"><a href="#Examples-4" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">alert</span> warning %&#125;</span><span class="xml"></span></div><div class="line">Best check yo self, you're not looking too good.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> danger %&#125;</span><span class="xml"></span></div><div class="line">Change a few things up and try submitting again.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> success %&#125;</span><span class="xml"></span></div><div class="line">You successfully read this important alert message.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div><div class="line"></div><div class="line"><span class="template-tag">&#123;% <span class="name">alert</span> info %&#125;</span><span class="xml"></span></div><div class="line">This alert needs your attention, but it's not super important.</div><div class="line"><span class="template-tag">&#123;% <span class="name">endalert</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
 <h3 id="Results-4"><a href="#Results-4" class="headerlink" title="Results"></a>Results</h3><div class="alert alert-warning"><i class="fa fa-bell"></i>  Best check yo self, you're not looking too good.</div>
 <div class="alert alert-danger"><i class="fa fa-bug"></i>  Change a few things up and try submitting again.</div>
@@ -336,14 +295,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[About]]></title>
-      <url>http://wzpan.github.io/hexo-theme-wixo/about/index.html</url>
-      <content type="html"><![CDATA[
-Something about me. ;-)
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Categories]]></title>
       <url>http://wzpan.github.io/hexo-theme-wixo/categories/index.html</url>
       <content type="html"></content>
@@ -353,6 +304,14 @@ Something about me. ;-)
       <title><![CDATA[Tags]]></title>
       <url>http://wzpan.github.io/hexo-theme-wixo/tags/index.html</url>
       <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[About]]></title>
+      <url>http://wzpan.github.io/hexo-theme-wixo/about/index.html</url>
+      <content type="html"><![CDATA[
+Something about me. ;-)
+]]></content>
     </entry>
     
   
