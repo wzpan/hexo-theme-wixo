@@ -10,7 +10,7 @@ Turn your Hexo into a Wiki!
 ## Requirements ##
 
 * Hexo >= 3.0
-* [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap) >= 0.0.8 (optional)
+* [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap) = 0.0.8 (optional)
 
 ## Features ##
 
@@ -43,7 +43,7 @@ $ npm install hexo-generator-search --save
 3) install [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap) (optional):
 
 ``` sh
-$ npm install hexo-tag-bootstrap --save
+$ npm install hexo-tag-bootstrap@0.0.8 --save
 ```
 
 ## Enable ##
